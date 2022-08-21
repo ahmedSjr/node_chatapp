@@ -36,6 +36,7 @@ a {
   color: var(--dark-color-a);
   border: 0;
   font-size: 17px;
+  border-radius: 15px;
 }
 
 /* Chat Page */
@@ -45,6 +46,7 @@ a {
   background: #fff;
   margin: 30px auto;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .chat-header {
@@ -95,7 +97,7 @@ a {
   padding: 10px;
   margin-bottom: 15px;
   background-color: var(--light-color);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .chat-messages .message .meta {
@@ -124,6 +126,9 @@ a {
   padding: 5px;
   height: 40px;
   flex: 1;
+  border-radius: 15px;
+  margin-right: 10px;
+  border: none;
 }
 
 /* Join Page */
